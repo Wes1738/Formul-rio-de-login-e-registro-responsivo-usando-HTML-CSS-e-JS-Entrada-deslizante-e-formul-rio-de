@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="150 chars">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="Wesley Rodrigues, wesleyrodriguessantos99@gmail.com">
+    <meta property="og:url" content="https://wesleyrodriguessantos.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Titulo da Página">
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2012/05/07/15/07/penguin-48559_960_720.png">
+    <meta property="og:description" content="Uma Descrição sobre a página">
+    <meta property="og:site_name" content="Estuda por Aqui">
+
+    <title>Esqueci minha Senha</title>
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        body {
+            background-position: center;
+            background-image: linear-gradient(-45deg, #4481eb 0%, #17a2b8 100%);
+            background-size: cover;
+            color: #505050;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.5;
+            text-transform: none
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+        }
+
+        .forgot {
+            background-color: #fff;
+            padding: 12px;
+            border: 1px solid #dfdfdf
+        }
+
+        .padding-bottom-3x {
+            padding-bottom: 72px !important
+        }
+
+        .card-footer {
+            background-color: #fff
+        }
+
+        .btn {
+            font-size: 13px
+        }
+
+        .form-control:focus {
+            color: #495057;
+            background-color: #fff;
+            border-color: #76b7e9;
+            outline: 0;
+            box-shadow: 0 0 0 0px #28a745
+        }
+
+        @media (max-width: 383px) {
+            .card-footer {
+                display: inline-flex;
+            }
+
+            .card-footer button {
+                margin-right: 3%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container padding-bottom-3x mb-2 mt-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-8 col-md-10">
+                <div class="forgot">
+                    <h2>Esqueceu sua senha?</h2>
+                    <p>Altere sua senha em três etapas fáceis. Isso ajudará você a proteger sua senha!</p>
+                    <ol class="list-unstyled">
+                        <li><span class="text-primary text-medium">1. </span>Digite seu endereço de e-mail abaixo.</li>
+                        <li><span class="text-primary text-medium">2. </span>Nosso sistema lhe enviará um link
+                            temporário.</li>
+                        <li><span class="text-primary text-medium">3. </span>Use o link para redefinir sua senha</li>
+                    </ol>
+                </div>
+                <form class="card mt-4">
+                    <div class="card-body">
+                        <div class="form-group"> <label for="email-for-pass">Insira o seu endereço de email</label>
+                            <input class="form-control" type="email" id="email-for-pass" required><small
+                                class="form-text text-muted">Digite o endereço de e-mail que você usou durante o
+                                registro no Estuda por Aqui. Em seguida, enviaremos um link para este endereço.</small>
+                        </div>
+                    </div>
+                    <div class="card-footer"> <button class="btn btn-outline-success" type="submit">Obter nova
+                            Senha</button> <button class="btn btn-outline-info" type="submit"><a
+                                href="cadastro-login.html">Voltar a tela de Login</a></button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

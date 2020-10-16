@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="150 chars">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="Wesley Rodrigues, wesleyrodriguessantos99@gmail.com">
+    <meta property="og:url" content="https://wesleyrodriguessantos.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Titulo da Página">
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2012/05/07/15/07/penguin-48559_960_720.png">
+    <meta property="og:description" content="Uma Descrição sobre a página">
+    <meta property="og:site_name" content="Estuda por Aqui">
+
+    <title>Cadastre-se ou Faça Login</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/228fef9ef2.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style-login.css">
+    <!-- Pace JS -->
+    <script src="./js/pace.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form action="" class="sign-in-form">
+                    <h2 class="title">Entrar</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" name="password" placeholder="Senha">
+                    </div>
+                    <a href="esqueci_senha.html" id="forgot-pass">Esqueceu a senha?</a>
+                    <input type="submit" value="Entrar" class="btn solid">
+
+                    <p class="social-text">Ou faça Login com o</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fa fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </div>
+                </form>
+
+                <form action="" class="sign-up-form">
+                    <h2 class="title">Cadastre-se</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="name" placeholder="Nome Completo">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" name="password" placeholder="Senha">
+                    </div>
+
+                    <input type="submit" value="Cadastrar" class="btn solid">
+
+                    <p class="social-text">Ou faça seu cadastro com o</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fa fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Novo por aqui?</h3>
+                    <p>
+                        Você pode fazer o seu cadastro clicando no botão abaixo
+                    </p>
+                    <button class="btn transparent" id="sign-up-btn">
+                        Cadastre-se
+                    </button>
+                </div>
+                <img src="img/log.svg" class="image" alt="Faça Login">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Já possui cadastro?</h3>
+                    <p>
+                        Faça login clicando no botão abaixo
+                    </p>
+                    <button class="btn transparent" id="sign-in-btn">
+                        Entrar
+                    </button>
+                </div>
+                <img src="img/register.svg" class="image" alt="REGISTRE-SE">
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/scripts-login.js"></script>
+</body>
+
+</html>
